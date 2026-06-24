@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --color-surface: #06060a;
+  --color-elevated: #0c0c12;
+  --color-muted: #737380;
+  --color-border: rgba(255, 255, 255, 0.07);
+  --color-accent: #eceef4;
+  --color-glow: rgba(120, 160, 220, 0.12);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-surface);
+  color: var(--color-accent);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: rgba(255, 255, 255, 0.14);
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse-slow {
+  0%,
+  100% {
+    opacity: 0.35;
+  }
+  50% {
+    opacity: 0.65;
+  }
+}
+
+@keyframes orbit {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.8s ease-out forwards;
+}
+
+.animate-fade-up-delay-1 {
+  animation: fade-up 0.8s ease-out 0.1s forwards;
+}
+
+.animate-fade-up-delay-2 {
+  animation: fade-up 0.8s ease-out 0.2s forwards;
+}
+
+.animate-fade-up-delay-3 {
+  animation: fade-up 0.8s ease-out 0.3s forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-up,
+  .animate-fade-up-delay-1,
+  .animate-fade-up-delay-2,
+  .animate-fade-up-delay-3 {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 4s ease-in-out infinite;
+}
