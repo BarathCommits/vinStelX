@@ -6,8 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "build:pages": "GITHUB_PAGES=true GH_PAGES_REPO=vinStelX npm run build && rm -rf docs && cp -r out docs && touch docs/.nojekyll",
+    "build:domain": "npm run build && rm -rf docs && cp -r out docs && touch docs/.nojekyll && echo vinstelx.com > docs/CNAME",
     "preview": "npm run build && npx --yes serve out -l 3000",
     "preview:pages": "npm run build:pages && rm -rf .preview && mkdir -p .preview/vinStelX && cp -r docs/. .preview/vinStelX/ && npx --yes serve .preview -l 3000",
+    "preview:domain": "npm run build:domain && npx --yes serve docs -l 3000",
     "lint": "next lint"
   },
   "dependencies": {
