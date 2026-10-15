@@ -2,28 +2,28 @@ import { SectionLabel } from "./SectionLabel";
 
 const milestones = [
   {
-    phase: "2025",
+    phase: "2026",
     title: "Architecture validation",
     description:
       "Orbital node design, radiation testing, and ground segment integration.",
-    status: "Complete",
-  },
-  {
-    phase: "2026",
-    title: "Orbital demonstrator",
-    description:
-      "First Vinsta Compute node in LEO with live workload processing.",
     status: "In progress",
   },
   {
     phase: "2027",
+    title: "Orbital demonstrator",
+    description:
+      "First Vinsta Compute node in LEO with live workload processing.",
+    status: "Planned",
+  },
+  {
+    phase: "2028",
     title: "Pilot constellation",
     description:
       "Multi-node deployment with select constellation operator partners.",
     status: "Planned",
   },
   {
-    phase: "2028",
+    phase: "2029",
     title: "Production scale",
     description:
       "Commercial orbital compute service across LEO operator networks.",

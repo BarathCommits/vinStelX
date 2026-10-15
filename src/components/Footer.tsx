@@ -35,16 +35,10 @@ export function Footer() {
             ))}
           </ul>
         </div>
-        <div className="mt-10 flex flex-col gap-2 border-t border-border pt-8 sm:flex-row sm:items-center sm:justify-between">
+        <div className="mt-10 border-t border-border pt-8">
           <p className="text-xs text-muted">
             © {new Date().getFullYear()} vinStelX. All rights reserved.
           </p>
-          <a
-            href="mailto:hello@vinstelx.com"
-            className="text-xs text-muted transition-colors hover:text-white"
-          >
-            hello@vinstelx.com
-          </a>
         </div>
       </div>
     </footer>

@@ -30,12 +30,6 @@ export function CTA({
         <p className="mx-auto mt-5 max-w-md text-sm leading-relaxed text-muted">
           {description}
         </p>
-        <a
-          href="mailto:hello@vinstelx.com"
-          className="mt-10 inline-flex h-10 items-center bg-white px-8 text-xs tracking-wide text-surface uppercase transition-opacity hover:opacity-90"
-        >
-          hello@vinstelx.com
-        </a>
       </div>
     </section>
   );

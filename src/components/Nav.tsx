@@ -43,12 +43,6 @@ export function Nav() {
             );
           })}
         </ul>
-        <a
-          href="mailto:hello@vinstelx.com"
-          className="border border-border px-4 py-1.5 text-xs tracking-wide text-white uppercase transition-colors hover:border-white/20 hover:bg-white/5"
-        >
-          Contact
-        </a>
       </nav>
     </header>
   );
