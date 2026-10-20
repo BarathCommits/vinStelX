@@ -1,10 +1,10 @@
-# vinStelX Business & Product Planning
+# vinStelX Planning Documents
 
-| Document | Purpose |
-|----------|---------|
-| [IODC Architecture](./iodc-architecture.md) | Full system architecture + research-backed specs for In-Orbit Data Centres |
-| [Investor deck outline](./investor-deck-outline.md) | Fundraising narrative (if present on branch) |
-| [CRM target list](./crm-target-list.md) | Prioritized accounts (if present on branch) |
-| [Product roadmap](./product-roadmap.md) | 2026–2028 product roadmap (if present on branch) |
+| Document | Description |
+|----------|-------------|
+| [iodc-architecture.md](./iodc-architecture.md) | Full In-Orbit Data Centre architecture + research-backed specs |
+| [investor-deck-outline.md](./investor-deck-outline.md) | 12-slide investor deck outline |
+| [crm-target-list.md](./crm-target-list.md) | Prioritized customer CRM list (satellites first) |
+| [product-roadmap.md](./product-roadmap.md) | 2026–2028 product roadmap (IODC / Vinsta Compute) |
 
-**Interactive canvas:** open the “vinStelX IODC Architecture” canvas in Cursor for a visual summary of layers, SKUs, competitors, and specs.
+**Canvas:** vinStelX IODC Architecture (open in Cursor)
